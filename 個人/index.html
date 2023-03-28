@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網頁</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 2% 2%;
+            height: 400px;
+            background-color: rgb(238, 230, 230);
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .section-name{
+            margin: 1%;
+            padding: 2%;
+            background-color: white;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .section2-introduce{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 80%;
+            width: 50%;
+            padding: 1%;
+            border-radius: 10px;
+            background-color: white;
+            margin: 3%;
+        }
+        .section2-good{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 80%;
+            width: 50%;
+            padding: 1.5% 2.5%;
+            border-radius: 10px;
+            background-color: white;
+            margin: 3%;
+        }
+        .code{
+            display: flex;
+            justify-content: space-around;
+            max-height: 50%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .code-pic{
+            width: 18%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <div>
+                如芳履歷
+            </div>
+        </a>
+        <nav>
+            <a href="./school.html">
+                <div>
+                    學習過程</a>
+                </div>
+            </a>
+            <div>
+                <a href="./work.html">工作經歷</a>
+            </div>
+            <div>
+                <a href="./product.html">作品集</a>
+            </div>
+            <div>
+                <a href="./sayhi.html">聯絡資訊</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div style="height: 65%; width: 15%;">
+                <img src="./img/大頭貼.jpg" alt="" style="max-width: 100%;">
+            </div>
+            <div style="display: flex;flex-direction: column;width: 70%;">
+                <div class="section-name">
+                    <p>姓名：鄧如芳</p>
+                    <p>年齡：21歲</p>
+                    <p>畢業學校：中原大學</p>
+                </div>
+                <div class="section-name">
+                    <p>座右銘</p>
+                    <p><b>在年輕的時候，衝就對了</b></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section2-introduce">
+                <p><b>自我介紹</b></p>
+                <p style="line-height: 30px;">
+                    我是鄧如芳,出生自單親家庭,因此家裡經濟情況一直不佳,原本選擇念商科
+                    是希望能夠有經商頭腦能夠賺錢,但後來發現實在是沒興趣,所以選擇轉到資
+                    訊方面的資管系,上了大學以後為了減輕家裡的負擔,開始打工賺取生活費,
+                    但也不因為打工而懈怠學習,會利用空餘時間,透過網路尋找自己需要的解決
+                    辦法並學習解決目前遇到的問題。在 109 學年度上學期獲得了書卷獎(全班第
+                    二名),我在學習過程中會覺得越來越有趣,想要達到目標。但我也不完全只
+                    是學習課本上的知識,我還參加了學校的溜冰社並擔任了第 57 屆社長,發展
+                    學習以外的專長,在擔任社長的過程中也學習到了許多事情,像是行政上的程
+                    序,或是人與人之間的互動,以及不同團體間的合作等等,希望能夠獲得實習
+                    機會,學習到更多!
+                </p>
+            </div>
+            <div class="section2-good">
+                <p><b>個人專長</b></p>
+                <div class="code">
+                    <div class="code-pic">
+                        <img src="./img/html.png" alt="">
+                    </div>
+                    <div class="code-pic">
+                        <img src="./img/css.png" alt="">
+                    </div>
+                    <div class="code-pic">
+                        <img src="./img/js.png" alt="">
+                    </div>
+                </div>
+                <div class="code">
+                    <div class="code-pic">
+                        <img src="./img/jsp.png" alt="">
+                    </div>
+                    <div class="code-pic">
+                        <img src="./img/mysql.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
